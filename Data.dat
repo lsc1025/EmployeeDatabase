@@ -1,0 +1,36 @@
+# comments
+# database file that stores all info for the sample employees
+# for more information please read the instruction file
+Smith:Joe:G:Salesman:MK:A:123456:1345:jsmith@sb.com
+25 King St.:London:Ontario:N8B 3C5:654321:1985.01.21:single:no spouse:sb@gmail.com
+1001:111111111:2010.02.05:12:5
+500.0:3:B:2015.03.20:200
+Cannings:Martha:G:Eaaaa:PP:B:183456:5345:mcanning@sf.com
+85 King St.:London:Ontario:N8B 3C5:654621:1995.01.11:single:no spouse:qqq@gmail.com
+1002:111111211:2010.05.05:9:5
+800.0:4:B:2015.01.20:180
+Jacomen:Sally:W:Accountant:AC:C:676788:6547:sjacomen@sdfa.com
+#fdskjfhqkjewhflqkw
+400 King St.:London:Ontario:N6B 3N8:585657:1988.10.29:widowed:II:afgk@lsc.com
+1003:738264829:2011.06.30:88:9
+350:5:B:2012.08.09:90
+Bell:Beil:K:Marketing Administrator:MK:A:238753:0008:nbell@adh.com
+25 King St.:London:Ontario:N8B 3C5:2353355:1970.04.25:married:IV:afjj@djk.com
+1004:124478274:2008.12.09:90:7
+3899:12:B:2011.09.11:700
+Garrity:Sam:O:Workplace Cleanner:HR:C:134155:NA:sgarritt@sad.com
+25 King St.:London:Ontario:N8B 2C5:1248973:1980.11.04:single:NA:sadj@svn.com
+1005:836582947:2011.04.09:8:3
+200:2:W:2014.09.06:90
+Wallace:Nancy:P:Global HR Manager:HR:NA:18820033:0073:nwallace@afhf.com
+1st Infinity Loop:Morita:CA:43075:1882303:1966.08.07:married:III:adafi@af.com
+1006:124241243:2009.10.21:90:13
+2600:9:B:2013.07.16:90
+Marsha:Tulloch:G:cashier:AC:A:518489894:5184889895:mtulloch@sb.com
+28 King St.:London:Ontario:N8B 3C5:654789:1985.05.21:married:Jane:MTulloch@gmail.com
+1007:115445687:2010.05.05:12:5
+350.0:8:B:2014.12.20:200
+Richard:Cryer:B:personnel staff:HR:B:518489895:518498952:rcryer@sb.com
+85 Richmond St.:London:Ontario:N6A 3C5:654881:1989.01.12:married:James:RCryer@gmail.com
+1008:112341211:2013.09.06:8:8
+300.0:7:B:2015.02.20:300
