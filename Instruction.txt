@@ -1,0 +1,20 @@
+Employee Database Instruction
+Basic Process
+	When the program runs, user will be prompted for username and the corresponding password in order to login. These login information has been stored in “C:/log/Authentication.dat”. Every three lines contains username followed by its password in the next line, and then privilege code.
+When the user makes a successful login, a dynamic menu related to his or her access level will be displayed. For example, a user with the access level to only browse the general information will receive a message saying “Access denied” if he or she attempts to update user information. Any changes to employee information is subject to confirmation of re-authentication process. If a user has entered incorrect username, password or tried to login as an invalid (deleted) user for 10 times, the program will not run again and the user has to contact the administrator.
+
+Privilege Code
+	The privilege code is comprise of six digits. The first digit stands for primary access level. “0” means read only, “1” stands for both read and write, while “2” represents invalid users, in which case the user might have been marked as deleted. The second to the forth digits represent the four types of information, which are general, home, human resource and salary. Of these digits, “0” means the user cannot read these information, “1” for read-only and “2” for being able to update them. The last digit is used for adding or deleting users. “0” means the user can add or delete users, while “1” means the opposite. Privilege codes are meant to be set by users who have the privilege to add new users, and can only be set once the user is created and cannot be modified later on.
+
+Reset Trial limits
+	Each user has a trial limit of 10 errors allowance. If the limit is reached, the administrator will have to locate the file on “C:/log/check.dat” and rewrite the file with “0”. The program will reset trial error count itself if the user does not reach the limit and makes a successful login. The trial limit mechanism also applies to re-authentication.
+
+Change Password
+	Any user is authorized to change his or her own password. Should one wish to change password, choose “Update user” and then select “Change password”. Re-authentication will be required.
+
+Multiple Access Level
+	All the access level information was stored in the login database and all the selection will take effect only if the user have enough access level, which means the command can be executed safely once it is returned.
+
+Connection between Menu Class and Execute Class
+	The users’ requests is stored in an integer array named command[ ] (or cmd[ ]) in the menu class and then transfer to the execute class by the “getCmd()” method. For each cmd[ ] array the first int stands for selection in main menu, namely “0” means browse, “1” means update, “2” means add new user, “3” means delete user and “4” means change the user’s own password. The second integer stands for the category that the user need to browse or update, could be 1 to 4 integers, the next one means the small category such as employee numbers. The last integer is the requested four digits employee number that is requested.
+
